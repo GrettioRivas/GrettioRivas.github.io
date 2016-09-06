@@ -1,0 +1,60 @@
+body {
+	background-color: #E2562B;
+	color: #fff;
+}
+
+#about-me-wrap {
+    background-color: #172549;
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#profile-wrap{
+	width: 40%;
+	margin-right: 10%;
+	float: left;
+}
+#bio-wrap{
+	width: 50%;
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	border-bottom: 5px solid #000;
+	font-weight: 600;
+	font-size: 2.5em;
+}
+
+ul.profile-social-links {
+	padding: 0;
+	list-style:none;
+}
+
+ul.profile-social-links li {
+	display: inline;
+	margin-right: 9px;
+}
+
+@media only screen and (max-width: 767) {
+	#profile-wrap{
+		width: 100%! important;
+		float: none!important;
+		margin-right: 0!important;
+	}
+
+	#bio-wrap {
+		width: 100%! important;
+		float: none!important;
+		margin-right: 50px! important;
+	}
+}
